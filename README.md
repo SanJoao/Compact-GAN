@@ -33,3 +33,6 @@ This repository contains the implementation of **CompactGAN**, a deep learning m
   - **Conditional GAN (CGAN):** While CGAN conditions the generation process on auxiliary information (e.g., class labels), Compact GAN does not explicitly condition on such information but rather focuses on a compact, efficient design. This simplicity could make Compact GAN more adaptable across different domains without needing specific conditioning.
   - **ACGAN (Auxiliary Classifier GAN):** ACGAN introduces an auxiliary classifier to improve the discriminator's performance. Compact GAN similarly includes an encoder that classifies real images to improve the generation process, but it does so without the added complexity of an auxiliary classifier.
   - **Diffusion Models:** Diffusion models, known for generating high-quality images through iterative refinement, are typically more complex and computationally intensive. Compact GAN, in contrast, prioritizes simplicity and efficiency, making it a more lightweight alternative, especially for tasks where computational resources are limited.
+
+![Compact GAN Overview](./download%20-%202024-08-18T194301.424.png)
+
