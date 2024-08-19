@@ -34,5 +34,6 @@ This repository contains the implementation of **CompactGAN**, a deep learning m
   - **ACGAN (Auxiliary Classifier GAN):** ACGAN introduces an auxiliary classifier to improve the discriminator's performance. Compact GAN similarly includes an encoder that classifies real images to improve the generation process, but it does so without the added complexity of an auxiliary classifier.
   - **Diffusion Models:** Diffusion models, known for generating high-quality images through iterative refinement, are typically more complex and computationally intensive. Compact GAN, in contrast, prioritizes simplicity and efficiency, making it a more lightweight alternative, especially for tasks where computational resources are limited.
 
+![Compact GAN Overview](./download%20-%2024-08-18T140248.190.png)
 ![Compact GAN Overview](./download%20-%202024-08-18T194301.424.png)
 
